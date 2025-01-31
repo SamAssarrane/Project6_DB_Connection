@@ -16,9 +16,9 @@ public class DemoTestDB {
 		String query = "SELECT * FROM university.students WHERE gpa > '3.40';";
 		
 		// Server Details: URL - UserName - Password
-		String url = "jdbc:mysql://localhost:3306";
-		String username = "root";
-		String password = "123456789";
+		String url = "jdbc:mysql://xxx:xxx";
+		String username = "xxx";
+		String password = "xxxx";
 		
 		//Import Java SQL Driver Manager
 		Class.forName("com.mysql.cj.jdbc.Driver");
